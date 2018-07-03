@@ -9,11 +9,13 @@
 
 # HW
 ## Introduce Functions/Variables
+```C++
 namespace Fibonacci
 {
   int FibonacciIterative(int aIndex);
   int FibonacciRecursive(int aIndex);
 }
+```
 
 
 # HW
