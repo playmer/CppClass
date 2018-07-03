@@ -12,20 +12,30 @@
 ```C++
 namespace Fibonacci
 {
+  // The fibonacci sequence is a series of numbers in which a given index is the
+  // sum of the values of the previous two indicies. The first two starting
+  // values as we will define them, are 0 and 1.
+
+  // You will be writing a function that computes an index within the fibonacci
+  // sequence. Given 0 you will return 0, given 1, return 1, and given 3, return
+  // 3.
   int FibonacciIterative(int aIndex);
   int FibonacciRecursive(int aIndex);
 }
 ```
 
 
-# HW
-## Introducing Classes/Structs
+# Section:  Introducing Classes/Structs
+
+* `class`es, `struct`s
+
+## HW 
 ```C++
 namespace Classes
 {
   class Animal
   {
-
+    virtual void Speak;
   };
 
   class Mammal : public Mammal
@@ -45,9 +55,21 @@ namespace Classes
 }
 ```
 
+# Section: Traditional C++ Polymorphism
 
-# HW
-## Introducing owning pointer RAII concept
+* Function Overloads
+* `virtual`, `override`
+
+## HW
+### Introducing inheritance, `virtual`, `override`
+
+# Section: Traditional C++ Polymorphism
+
+* RAII
+* Ownership concepts
+
+## HW
+### Introducing owning pointer RAII concept
 
 ```C++
 namespace UniquePtrInt
@@ -90,8 +112,11 @@ namespace UniquePtrInt
 }
 ```
 
-# HW
-## Introducing Class Templates
+# Section: Templates 1
+* Class Templates
+
+## HW
+### Introducing Class Templates
 ```C++
 namespace UniquePtrTemplated
 {
@@ -125,8 +150,12 @@ namespace UniquePtrTemplated
 }
 ```
 
-# HW
-## Introducing Variadic Template Functions
+# Section: Templates 2
+* Function Templates
+* Variadic Templates
+
+## HW
+### Introducing Variadic Template Functions
 ```C++
 namespace MakeUniqueVariadic
 {
@@ -138,8 +167,8 @@ namespace MakeUniqueVariadic
 }
 ```
 
-# HW
-## Introducing Containers
+## HW
+### Introducing Containers
 ```C++
 namespace HW4
 {
